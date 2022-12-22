@@ -36,8 +36,8 @@ function chuteForInvalido(numero) {
     return Number.isNaN(numero);
 }
 
-document.body.addEventListener('click', (e)=>{
+document.body.addEventListener('click', e=>{
     if (e.target.id == 'jogar-novamente'){
-        window.location.reload;
+        window.location.reload();
     }
 })
